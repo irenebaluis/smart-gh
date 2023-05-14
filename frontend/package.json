@@ -9,8 +9,19 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.4",
+    "@nomiclabs/hardhat-waffle": "^2.0.2",
     "daisyui": "^2.51.6",
-    "vue": "^3.2.47"
+    "dotenv": "^14.2.0",
+    "ethereum-waffle": "^3.4.0",
+    "ethers": "^5.5.3",
+    "hardhat": "^2.8.3",
+    "pinia": "^2.0.36",
+    "vite-plugin-vue-layouts": "^0.8.0",
+    "vite-ssg": "^0.22.2",
+    "vue": "^3.2.47",
+    "vue-connect-wallet": "^0.1.7",
+    "vue-router": "^4.2.0"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.1.0",
@@ -19,6 +30,7 @@
     "tailwindcss": "^3.3.2",
     "typescript": "^5.0.2",
     "vite": "^4.3.2",
+    "vite-plugin-pages": "^0.29.0",
     "vue-tsc": "^1.4.2"
   }
 }

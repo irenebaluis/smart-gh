@@ -2,7 +2,7 @@
   <footer class="footer footer-center p-10 bg-primary text-primary-content">
     <div>
       <div class="w-12 rounded-full">
-        <img src="/images/asscat.png"  alt="asscat"/>
+        <img src="/images/asscat.png" alt="asscat"/>
       </div>
       <p class="font-bold">
         Agusan del Sur State College of Agriculture and Technology (ASSCAT)

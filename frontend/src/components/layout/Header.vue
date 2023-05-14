@@ -1,8 +1,8 @@
 <template>
 
-  <div class="navbar bg-primary text-primary-content">
+  <div class="navbar bg-primary text-primary-content shadow">
     <div class="flex-1">
-      <a class="btn btn-ghost normal-case text-xl">daisyUI</a>
+      <a class="btn btn-ghost normal-case text-xl"></a>
     </div>
     <div class="flex-none">
       <div class="dropdown dropdown-end">
@@ -25,7 +25,7 @@
       <div class="dropdown dropdown-end">
         <label tabindex="0" class="btn btn-ghost btn-circle avatar">
           <div class="w-10 rounded-full">
-            <img :src="getImageUrl('asscat.png')"  alt="asscat-user"/>
+            <img src="/images/asscat.png" alt="asscat-user"/>
           </div>
         </label>
         <ul tabindex="0" class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
@@ -48,9 +48,7 @@ export default {
   name: "header",
 
   methods:{
-    getImageUrl(name) {
-      return new URL(`../assets/images/${name}`,import.meta.url).href
-    }
+
 
   }
 
